@@ -10,4 +10,16 @@ if (x > y) {
 
 } else { console.log("x & y are equal") }
 
-//ex2 in conditions
+//an ex f
+
+var age =18
+if (age>0 && age<13) {
+    console.log("a kid")}
+else { console.log("old person")
+}
+var city= "Kfar Yona"
+if (city==="Tel Aviv" || city==="Haifa") {
+    console.log("In Srael")   
+} else  { console.log("Not in Srael")  
+    
+}
