@@ -24,8 +24,8 @@ if (city==="Tel Aviv" || city==="Haifa") {
     
 }
 
-var age=67
-var gender="male"
+var age=68
+var gender="female"
 var working_status= (gender==="male" && age>=67) || (gender==="female" && age>=62)? working_status="pension": working_status="working";
 console.log(working_status)
 
