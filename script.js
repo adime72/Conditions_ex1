@@ -10,16 +10,20 @@ if (x > y) {
 
 } else { console.log("x & y are equal") }
 
-//an ex f
+//an bs ex's from Nir
 
-var age =18
+var age =12
 if (age>0 && age<13) {
     console.log("a kid")}
 else { console.log("old person")
 }
-var city= "Kfar Yona"
+var city= "Tel Aviv"
 if (city==="Tel Aviv" || city==="Haifa") {
     console.log("In Srael")   
 } else  { console.log("Not in Srael")  
     
 }
+
+var age=67
+var gender="male"
+gender= (gender==="male" && age>=67) || (gender==="female" && age>=62)?console.log("pension"):console.log("working")
